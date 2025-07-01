@@ -40,8 +40,8 @@ public class AiDemoController {
     private final VectorStore vectorStore;
     private final ImageModel imageModel;
 
-    private static final String DIR_IN = "/Users/markheckler/files/in";
-    private static final String DIR_OUT = "/Users/markheckler/files/out";
+    private static final String DIR_IN = "/Users/spring-ai-demo/files/in";
+    private static final String DIR_OUT = "/Users/spring-ai-demo/files/out";
 
     public AiDemoController(ChatClient.Builder builder, OpenAiAudioSpeechModel speechModel, VectorStore vectorStore, ImageModel imageModel) {
         // We'll revisit this later. This is going to be legen...wait for it...
