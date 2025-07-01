@@ -1,5 +1,10 @@
 # AI Demo: Using Spring boot ai
 
+## Prerequisites
+- Java 21
+- Maven
+
+
 This project requires an OpenAI API key to be defined and provided to the application via Spring-accessible environment variables.
 For more information on ways to supply this value to your application, please refer to https://docs.spring.io/spring-boot/reference/features/external-config.html[the Spring Boot docs reference on Externalized Configuration].
 If you use an alternative provider, please refer to the https://docs.spring.io/spring-ai/reference/[Spring AI documentation for the variables applicable to your choice of models/implementations].
